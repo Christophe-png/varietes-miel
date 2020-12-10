@@ -43,6 +43,7 @@ const ListeMiels = () => (
   <section className="ListeMiels">
     {miels.map((singleMiel) => (
       <Miel
+        key={singleMiel.id}
         nom={singleMiel.nom}
         image={singleMiel.image}
         couleur={singleMiel.couleur}
