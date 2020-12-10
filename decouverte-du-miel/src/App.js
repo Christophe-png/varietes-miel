@@ -15,7 +15,12 @@ class App extends Component {
       <div className="App">
         <Header />
         <HomePage />
-        <Miel />
+        <Miel
+          nom="Miel d'Acacia"
+          image="https://s2.semencesdupuy.com/12572-medium_default/acacia-dealbata.jpg"
+          couleur="trés clair, blond"
+          bienfaits="régulateur intestinal, recommandé pour les jeunes enfants"
+        />
       </div>
     );
   }

@@ -1,19 +1,13 @@
 import React from "react";
 import "./Miel.css";
 
-function Miel() {
+function Miel(props) {
   return (
     <div className="Miel">
-      <h3>Miel d'Acacia</h3>
-      <img
-        className="Miel-picture"
-        src="https://s2.semencesdupuy.com/12572-medium_default/acacia-dealbata.jpg"
-        alt="Nom du miel"
-      />
-      <p>couleur : trés clair, blond</p>
-      <p>
-        bienfaits: "régulateur intestinal, recommandé pour les jeunes enfants"
-      </p>
+      <h3>{props.nom}</h3>
+      <img className="Miel-picture" src={props.image} alt="Nom du miel" />
+      <p>{props.couleur}</p>
+      <p>{props.bienfaits}</p>
     </div>
   );
 }
