@@ -1,4 +1,5 @@
 import Miel from "./Miel";
+import "./ListeMiels.css";
 
 const miels = [
   {
