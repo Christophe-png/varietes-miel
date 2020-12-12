@@ -136,6 +136,14 @@ const miels = [
     image:
       "https://www.mon-herboristerie.com/images/tinymce/Manuka%20Flowers.jpeg",
   },
+  {
+    id: 18,
+    nom: "Citronnier",
+    couleur: "jaune soleil",
+    bienfaits: "fatigue, circulation sanguine, digestion, mal de gorge",
+    image:
+      "https://www.famillemary.fr/media/magefan_blog/2010/06/fleur-de-citronnier-2.jpg",
+  },
 ];
 
 const ListeMiels = () => (
