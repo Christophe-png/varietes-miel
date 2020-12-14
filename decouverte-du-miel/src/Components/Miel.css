@@ -1,7 +1,14 @@
 .Miel {
-  width: 500px;
+  width: 32%;
 }
 
 .Miel-picture {
-  max-width: 100px;
+  /*max-width: 20%;*/
+}
+.Honey {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
