@@ -16,9 +16,21 @@ function Header() {
       </Link>
 
       <ul>
-        <li>tout les miels</li>
-        <li>articles</li>
-        <li>nous contacter</li>
+        <li>
+          <Link className="nav-les-miels" to="/les-miels">
+            Les Miels et leurs plantes
+          </Link>
+        </li>
+        <li>
+          <Link className="articles" to="/articles">
+            Le miel : un parfait alicament !
+          </Link>
+        </li>
+        <li>
+          <Link className="nous contacter" to="/ContactForm">
+            Nous contacter
+          </Link>
+        </li>
       </ul>
     </div>
   );
