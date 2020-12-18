@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 import HomePage from "./Components/HomePage";
 import ListeMiels from "./Components/ListeMiels";
 import axios from "axios";
-//import { Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -26,9 +26,14 @@ class App extends Component {
     console.log("render", miels);
     return (
       <div className="App">
-        <Header />
-        <HomePage />
-        <ListeMiels miels={miels} />
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <HomePage />
+            <ListeMiels miels={miels} />
+          </Switch>
+        </Router>
       </div>
     );
   }

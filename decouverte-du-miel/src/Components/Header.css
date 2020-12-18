@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  /*position: relative*/
+  align-items: left;
+  width: 100%;
+  padding: 72px 0 16px;
+  margin-bottom: 4rem;
+  background-color: #efaf39;
+}
+
+.logo {
+  max-width: 30%;
+  justify-content: center;
+}
