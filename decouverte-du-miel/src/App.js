@@ -31,9 +31,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <HomePage />
-            <ListeMiels miels={miels} />
           </Switch>
         </Router>
+        <ListeMiels miels={miels} />
       </div>
     );
   }
