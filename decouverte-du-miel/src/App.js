@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import HomePage from "./Components/HomePage";
 import ListeMiels from "./Components/ListeMiels";
 import Miel from "./Components/Miel";
+import Articles from "./Components/Articles";
 import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
 import axios from "axios";
@@ -33,9 +34,9 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/les-miels" component={ListeMiels} />
-            <Route path="/articles" component={Miel} />
-            <Route path="/ContactForm" component={ContactForm} />
+            <Route path="/liste-miels" component={ListeMiels} />
+            <Route path="/articles" component={Articles} />
+            <Route path="/contact-form" component={ContactForm} />
             <HomePage />
           </Switch>
           <ListeMiels miels={miels} />
