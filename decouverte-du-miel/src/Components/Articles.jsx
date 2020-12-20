@@ -1,9 +1,10 @@
 import React from "react";
+import "./Articles.css";
 import { Link } from "react-router-dom";
 
 function Articles() {
   return (
-    <div className="article_sante">
+    <div className="articles">
       <h1>Le miel c'est trés bon pour la santé !</h1>
       <h2>
         Le miel contient des nutriments aux propriétés antibactériennes,
@@ -18,6 +19,10 @@ function Articles() {
         également des traces de vitamines, de minéraux, d'électrolytes,
         d'enzymes, d'acides aminés et de flavonoïdes.
       </p>
+      <img
+        src="https://static5.depositphotos.com/1029404/412/i/600/depositphotos_4120045-stock-photo-fresh-honey.jpg"
+        alt="bol de miel"
+      />
       <h2>Conseil</h2>
       <p>
         Sa texture est censée être épaisse, et il ne devrait pas s’étaler comme
@@ -27,6 +32,10 @@ function Articles() {
         où vous pouvez voir les abeilles.
       </p>
       <h1>L'apithérapie: une médecine douce.</h1>
+      <img
+        src="https://i.skyrock.net/6420/85386420/pics/3267499612_1_3_7Jo3I5iJ.jpg"
+        alt="photo apitherapie"
+      />
       <p>
         L'apithérapie consiste à guérir de nombreux maux grâce aux bienfaits du
         miel et de ses produits dérivés. Le miel est un aliment énergétique
