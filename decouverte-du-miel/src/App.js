@@ -41,6 +41,7 @@ class App extends Component {
             <HomePage />
           </Switch>
           <ListeMiels miels={miels} />
+          <Footer />
         </Router>
       </div>
     );
