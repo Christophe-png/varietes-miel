@@ -17,7 +17,7 @@ function Header() {
 
       <ul>
         <li>
-          <Link className="nav-les-miels" to="/liste-miels">
+          <Link className="nav-les-miels" to="/miel">
             Les Miels et leurs plantes
           </Link>
         </li>
