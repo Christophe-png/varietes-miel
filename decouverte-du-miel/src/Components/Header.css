@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  /*position: relative*/
+  position: relative;
   align-items: left;
   width: 100%;
   padding: 72px 0 16px;
