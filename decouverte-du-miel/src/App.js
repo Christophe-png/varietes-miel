@@ -25,8 +25,9 @@ class App extends Component {
       });
     console.log("mount");
   }
+
   render() {
-    const { miels } = this.state;
+    const { miels, nomFilter } = this.state;
 
     console.log("render", miels);
     return (
